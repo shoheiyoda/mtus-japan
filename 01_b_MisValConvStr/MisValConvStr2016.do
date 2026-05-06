@@ -5,8 +5,7 @@ destring SingleHH, replace
 replace  QMarStatRes = subinstr(QMarStatRes, "V", "9", .)
 destring QMarStatRes, replace
 
-replace  QEduRes = subinstr(QEduRes, "  ", "8888", .)
-replace  QEduRes = subinstr(QEduRes, "V",  "99", .)
+replace  QEduRes = subinstr(QEduRes, "  ", "99", .)
 destring QEduRes, replace
 
 
@@ -71,7 +70,7 @@ replace  QDsrWorkHoursWeekEmp = subinstr(QDsrWorkHoursWeekEmp, " ", "8888", .)
 destring QDsrWorkHoursWeekEmp, replace
 
 
-replace  QAnnInc = subinstr(QAnnInc, "V",  "99", .)
+replace  QAnnInc = subinstr(QAnnInc, "VV", "99", .)
 replace  QAnnInc = subinstr(QAnnInc, "  ", "8888", .)
 destring QAnnInc, replace
 
@@ -173,7 +172,7 @@ replace  QEduChildU6 = subinstr(QEduChildU6, " ",  "8888", .)
 destring QEduChildU6, replace
 
 
-replace  KCAgeNatYg = subinstr(KCAgeNatYg, " ",  "8888", .)
+replace  KCAgeNatYg = subinstr(KCAgeNatYg, "  ",  "8888", .)
 destring KCAgeNatYg, replace
 
 

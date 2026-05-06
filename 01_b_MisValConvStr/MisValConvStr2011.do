@@ -5,8 +5,7 @@ destring SingleHH, replace
 replace  QMarStatRes = subinstr(QMarStatRes, "V", "9", .)
 destring QMarStatRes, replace
 
-replace  QEduRes = subinstr(QEduRes, "  ", "8888", .)
-replace  QEduRes = subinstr(QEduRes, "V",  "99", .)
+replace  QEduRes = subinstr(QEduRes, "  ", "99", .)
 destring QEduRes, replace
 
 

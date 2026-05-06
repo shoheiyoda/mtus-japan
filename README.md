@@ -20,6 +20,6 @@ These scripts harmonize the Japanese time-use data to match the Multinational Ti
   - Convert certain variables from string to numeric
     -  Some variables contain special strings representing missing values (e.g., "V", "VV", or a space " "), which need to be handled 
 
-### `02_JapanMTUS,do`
+### `02_JapanMTUS.do`
 - Harmonize selected variables
 - Create the **Harmonized Aggregate Files (HAF)** and **Harmonized Episode Files (HEF)**

@@ -12,7 +12,7 @@ cd "XXXX"
 ********************************************************************************
 * Set paramters
 ********************************************************************************
-local SurveyYear 2016       /* survey year: 1991, 1996, 2001, 2006, 2011, 2016 */
+local SurveyYear 2021       /* survey year: 1991, 1996, 2001, 2006, 2011, 2016, 2021 */
 local RawCSVDir "XXXX"		/* local directory in which the original STULA data files are stored */
 local OutDir    "XXXX"		/* local directory in which harmonized data will be stored */
 

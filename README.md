@@ -2,7 +2,7 @@
 These scripts harmonize the Japanese time-use data to match the Multinational Time Use Study (MTUS) format.
 
 ## Notes
-- Funding: GenTime (PI: Man-Yee Kan (University of Oxford))
+- Funding: [GenTime](https://www.gentime-project.org/) (PI: [Man-Yee Kan](https://www.sociology.ox.ac.uk/people/man-yee-kan) (University of Oxford))
     - European Research Council (ERC) (grant number 771736)
 
 - Author: Shohei Yoda (shohei.yoda@gmail.com)
